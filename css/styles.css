@@ -1,0 +1,180 @@
+/*.......................................TAG SELECTORS...........................................*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+/*........................................ID SELECTORS............................................*/
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 5% 20%;
+}
+
+#features {
+    background-color: #fff;
+    padding: 10% 15% 0%;
+    position: relative;
+    bottom: 150px;
+}
+
+#footer {
+    padding: 8%;
+    text-align: center;
+    background-color: white;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+#testimonials {
+    background-color: #ef8172;
+    text-align: center;
+    color: #fff;
+}
+
+#title {
+    background-color: #ff4c68;
+}
+
+/*......................................CLASS SELECTORS............................................*/
+
+.button-main {
+    margin-top: 8%;
+    margin-right: 3%;
+}
+
+.card-col {
+    padding: 3% 2%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.container-top {
+    padding: 3% 15%;
+}
+
+.cta-btn {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.cta-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 70px;
+}
+
+.footer-icon {
+    margin: 10px 10px;
+}
+
+.footer-para {
+    color: #8f8f8f;
+    font-weight: 500;
+}
+
+.heading-main {
+    padding-top: 8%;
+    padding-left: 31px;
+    padding-right: 31px;
+    color: white;
+}
+
+.heading-mid {
+    text-align: center;
+    padding: 0% 4%;
+}
+
+.heading-mid-icon {
+    color: #ef8172;
+    font-size: 4.5rem;
+    margin-bottom: 20px;
+}
+
+.heading-mid-icon:hover {
+    color: #ff4c68;
+}
+
+.heading-mid-para {
+    color: #8f8f8f;
+    padding: 4%;
+    font-weight: 500;
+}
+
+.heading-mid-title {
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.image-main {
+    margin-top: 20%;
+    transform: rotate(25deg);
+    height: 600px;
+    position: relative;
+    left: 30%;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.nav-item {
+    font-size: 1.2rem;
+    margin-right: 10%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+}
+
+/*..............................MEDIA QUERIES...............*/
+
+@media (max-width:992px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .image-main {
+        transform:rotate(0deg);
+        position: static;
+
+    }
+
+}
